@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autogoods>
+	<car>
+		<model brand="Toyota" year="2022" />
+		<color>Red</color>
+		<price currency="USD">25000</price>
+	</car>
+	<car>
+		<model brand="Ford" year="2020" />
+		<color>Blue</color>
+		<price currency="EUR">18000</price>
+	</car>
+	<car>
+		<model brand="Honda" year="2023" />
+		<color>Green</color>
+		<price currency="USD">28000</price>
+	</car>
+	<car>
+		<model brand="Chevrolet" year="2019" />
+		<color>Silver</color>
+		<price currency="EUR">20000</price>
+	</car>
+</autogoods>

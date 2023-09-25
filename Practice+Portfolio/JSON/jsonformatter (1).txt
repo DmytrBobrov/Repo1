@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "title": "Mountain Adventure",
+      "description": "Embark on a thrilling mountain expedition to conquer the highest peaks and witness breathtaking landscapes.",
+      "difficulty": "Challenging",
+      "duration": "7 days",
+      "location": "Himalayas"
+    },
+    {
+      "title": "Culinary Exploration",
+      "description": "Delve into the world of diverse cuisines, from street food to fine dining, and learn the art of cooking with local chefs.",
+      "difficulty": "Easy-Moderate",
+      "duration": "10 days",
+      "location": "Various countries"
+    },
+    {
+      "title": "Underwater Discovery",
+      "description": "Dive into the depths of the ocean to explore vibrant coral reefs, encounter marine life, and experience the wonders of the underwater world.",
+      "difficulty": "Advanced",
+      "duration": "14 days",
+      "location": "Great Barrier Reef"
+    },
+    {
+      "title": "Historical Odyssey",
+      "description": "Immerse yourself in the rich history of ancient civilizations, visit archaeological sites, and unravel the mysteries of the past.",
+      "difficulty": "Moderate",
+      "duration": "12 days",
+      "location": "Machu Picchu, Petra, Athens"
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "id": "b6212cb8-719d-483b-bead-dddf57f4577c",
+  "version": "2.0",
+  "name": "Project1",
+  "url": "https://rozetka.com.ua/",
+  "tests": [{
+    "id": "fc11521c-c09c-4789-b877-f79cccf5ea5c",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "51bb26c1-58c4-46c5-8887-31cdd28adda9",
+    "name": "Add product to the cart",
+    "commands": [{
+      "id": "22e7ac41-4d8d-440c-959e-02ce0d851eea",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21c936a0-ab88-4e4d-ad0c-9566f279553a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c81ab5e3-5b04-4439-8195-e46fc50dc0ef",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0e4972b-56a6-4615-a09f-2e2313645f79",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "кобзар книга"
+    }, {
+      "id": "64991b41-912d-4777-be31-b81d27e4ae14",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "18e561bc-9c58-4777-b4fd-552263261ea5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_color_green",
+      "targets": [
+        ["css=.button_color_green", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Найти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36a0a46d-fcfd-4a81-87f0-0bed2234ba45",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.catalog-grid__cell:nth-child(3) .ng-lazyloaded:nth-child(1)",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(3) .ng-lazyloaded:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Кобзар. Вибрані твори - Т. Шевченко (9786178248925) ']", "xpath:img"],
+        ["xpath=//li[3]/rz-catalog-tile/app-goods-tile-default/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61c9ec85-a8b7-4cb4-bfb0-e17fb34c66aa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.goods-tile__picture > .display-none:nth-child(1)",
+      "targets": [
+        ["css=.goods-tile__picture > .display-none:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Кобзар. Вибрані твори - Т. Шевченко (9786178248925) ']", "xpath:img"],
+        ["xpath=//li[3]/rz-catalog-tile/app-goods-tile-default/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a18b4faf-50a7-46b5-af66-f6f0b791efcf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.catalog-grid__cell:nth-child(2) .ng-lazyloaded:nth-child(1)",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(2) .ng-lazyloaded:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Кобзар - Тарас Шевченко (9789664295571) ']", "xpath:img"],
+        ["xpath=//li[2]/rz-catalog-tile/app-goods-tile-default/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79cb6beb-7555-4db9-a23f-a6159fd34b8c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.goods-tile__picture > .display-none:nth-child(1)",
+      "targets": [
+        ["css=.goods-tile__picture > .display-none:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Кобзар - Тарас Шевченко (9789664295571) ']", "xpath:img"],
+        ["xpath=//li[2]/rz-catalog-tile/app-goods-tile-default/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a62511d-9643-4d22-a8aa-8dabd3e2ef93",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__title", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Дитячий Кобзар - Тарас Шевченко (9789662909944)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f82e4ca-1b80-47d5-8b52-315e55f9841a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__title", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Дитячий Кобзар - Тарас Шевченко (9789662909944)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c0dd7e7-de4b-404b-92a3-f6090c526c2d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23a1d991-2f36-4a69-aa59-5570919d4bc3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,564)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09f97b15-0590-4f39-bade-8af856945420",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1446)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0230bfd6-5fb4-4233-9321-274e4fe62d17",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1502)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f397364-9ded-45d2-9e12-56f581d83459",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[20]",
+      "targets": [
+        ["css=.button--green", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/rz-product-buy-btn/app-buy-button/button", "xpath:idRelative"],
+        ["xpath=//app-buy-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af34231b-5db2-4a1a-bf36-7a1b383af9b0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div/div/div/div/span",
+      "targets": [
+        ["css=.cart-receipt__sum-price > span", "css:finder"],
+        ["xpath=//div/div/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95637c4f-9e24-4220-9591-7633100b4704",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.cart-receipt__sum-price > span",
+      "targets": [
+        ["css=.cart-receipt__sum-price > span", "css:finder"],
+        ["xpath=//div/div/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d133eea6-95d6-447a-a884-1b395da278db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.overflow-hidden",
+      "targets": [
+        ["css=.overflow-hidden", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e67662c5-cbb9-4b2d-b041-c19b0127ef73",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[9]/div[2]",
+      "targets": [
+        ["css=.jfk-bubble:nth-child(66) > .jfk-bubble-closebtn-id", "css:finder"],
+        ["xpath=//div[9]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08b2a5d9-c446-43d9-a65e-d216da7ff47a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button_color_white:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[99]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e37ffa31-fb94-4a53-ad09-e85d96453d54",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[5]/div[2]",
+      "targets": [
+        ["css=.jfk-bubble-closebtn-id", "css:finder"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f7b726a-018e-42db-ab7a-60138465421f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button_color_white:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[99]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a09206ba-40bf-44cf-8edf-879f01203c2f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[6]/div[2]",
+      "targets": [
+        ["css=.jfk-bubble-closebtn-id", "css:finder"],
+        ["xpath=//div[6]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecba415e-1bff-4226-9d3a-4641404fbc5e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//rz-cart-counter/div/button[2]",
+      "targets": [
+        ["css=.button_color_white:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[99]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "196f9718-43eb-48d0-b0f1-22effbb65fe4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[7]/div[2]",
+      "targets": [
+        ["css=.jfk-bubble-closebtn-id", "css:finder"],
+        ["xpath=//div[7]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62b07eae-581a-4668-990f-0305c9f0e759",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Оформить заказ')]",
+      "targets": [
+        ["linkText=Оформить заказ", "linkText"],
+        ["css=.button_size_large", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформить заказ')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/checkout/')]", "xpath:href"],
+        ["xpath=//rz-shopping-cart/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформить заказ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85ade140-89d6-4ab6-a1b1-50ea5d88282e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "584a9d4c-5d9c-4523-a10e-447ea9ca1ae9",
+    "name": "Add product to the cart222",
+    "commands": [{
+      "id": "1261c289-0766-45b6-bcb8-74cabcd50dc6",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac792cb5-48a9-4ede-aad4-e41df7790f31",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "361a380f-ba22-4ecc-b826-ebb61f462e8f",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7a50eca-8f0c-45aa-9ebc-f4236f98336e",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "кобзар книга"
+    }, {
+      "id": "4723cdd9-0e6f-46f8-86af-272caccbb3dc",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "585100e8-9985-43c7-bb38-ca5deee58cdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(2) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(2) .goods-tile__title", "css:finder"],
+        ["xpath=//li[2]/rz-catalog-tile/app-goods-tile-default/div/div[2]/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Кобзар - Тарас Шевченко (9789664295571)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a2ae12f-85d3-4d0c-a0d8-c11c7289a0e3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45faa95a-6e54-41e1-9629-e5a2a8e85b55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buy-button--tile",
+      "targets": [
+        ["css=.buy-button--tile", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/rz-product-buy-btn/app-buy-button/button", "xpath:idRelative"],
+        ["xpath=//app-buy-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f482af2-05f5-4d10-803e-aa79f5277ce5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-list__item:nth-child(1) .button:nth-child(3)",
+      "targets": [
+        ["css=.cart-list__item:nth-child(1) .button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[94]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14ed7aeb-9d4c-4119-810b-5519d960df1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-list__item:nth-child(1) .button:nth-child(3)",
+      "targets": [
+        ["css=.cart-list__item:nth-child(1) .button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[94]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27b76ca1-c0c6-490b-ac56-23f50ddf808e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-list__item:nth-child(1) .button:nth-child(3)",
+      "targets": [
+        ["css=.cart-list__item:nth-child(1) .button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[94]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f02e845-94db-4ed9-901f-a9959a596ed9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-list__item:nth-child(1) .button:nth-child(3)",
+      "targets": [
+        ["css=.cart-list__item:nth-child(1) .button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[94]", "xpath:attributes"],
+        ["xpath=//rz-cart-counter/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef4b25f2-e476-421e-85c4-2315441a5686",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Оформить заказ",
+      "targets": [
+        ["linkText=Оформить заказ", "linkText"],
+        ["css=.button_size_large", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформить заказ')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/checkout/')]", "xpath:href"],
+        ["xpath=//rz-shopping-cart/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформить заказ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1e8143d7-496d-46fb-917c-d38d8ce0c249",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fc11521c-c09c-4789-b877-f79cccf5ea5c"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
